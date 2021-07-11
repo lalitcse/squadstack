@@ -45,7 +45,11 @@ const Pricing = () => {
         .then(resp => resp.json())
         .then(data => {
             setAllData(data)
-            setCardData(data[JSON.parse(retrievedObject).rate].plan_info)
+            if(retrievedObject === null){
+                setCardData(data["$300k-$400k"].plan_info)
+            }else{
+                setCardData(data[JSON.parse(retrievedObject).rate].plan_info)
+            }
         })
 
         if(retrievedObject !== null){
