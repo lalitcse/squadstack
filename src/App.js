@@ -1,7 +1,7 @@
 import './App.css';
 import Pricing from './pages/Pricing';
 import NoInternetPage from './errors/NoInternetPage';
-import { useEffect, useState } from 'react';
+import React,{ useEffect, useState } from 'react';
 
 function App() {
   const [noInternet, setNoInternet] = useState(false)
