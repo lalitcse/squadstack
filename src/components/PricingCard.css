@@ -1,0 +1,131 @@
+.single_card{
+    width: 260px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.border_row{
+    border-top: dashed #D7D7D7;
+    padding-top: 12px;
+}
+
+
+.single_card:not(:last-child){
+    margin-right: 20px;
+}
+
+.card_footer_button{
+    width: 100%;
+}
+
+.card_body{
+    justify-content: center;
+    text-align: center;
+}
+
+.price_header{
+    padding-top: 20px;
+    font-size: 38px
+}
+
+.number_only{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
+
+.text_only_top{
+    font-size: 15px;
+}
+
+.text_only{
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+.card_body_inner_wrapper{
+    margin: auto;
+    width: 190px;
+    text-align: center;
+    color: #37465C !important;
+}
+
+.card_footer_button button{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border: 1px solid #EE5A36;
+    border-radius: 2px;
+    margin-top: 10px;
+    background-color: white;
+    color: #EE5A36;
+}
+
+.popular_row{
+    /* background-color: ; */
+    color: white;
+    font-weight: 500;
+    text-align: center !important;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 0px;
+    visibility: none;
+}
+
+.active_back{
+    background-color: #F7F7F7;
+}
+
+.poplular_active{
+    background-color: #EE5A36;
+    color: white;
+    font-weight: 500;
+    text-align: center !important;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 0px;
+}
+
+.card_header{
+    background-color: #5A6F90;
+    color: white;
+    font-weight: 500;
+    text-align: center !important;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 0px;
+}
+
+.card_footer{
+    background-color: #5A6F90;
+    color: white;
+    font-weight: 500;
+    text-align: center !important;
+    justify-content: center;
+    font-size: 18px;
+    width: 100%;
+    padding: 12px 0px;
+}
+
+.poplular_btn_active{
+    color: white !important;
+    background-color: #EE5A36 !important;
+}
+
+.enterprise_card{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.text_only_top_enterprise{
+    font-size: 20px;
+
+}
+

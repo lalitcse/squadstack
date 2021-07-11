@@ -1,0 +1,17 @@
+.pill_wrapper{
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card_outer_wrapper{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card_wrapper{
+    flex-wrap: wrap;
+    justify-content: center;
+}

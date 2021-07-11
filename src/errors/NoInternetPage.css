@@ -1,0 +1,14 @@
+.error_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #5A6F90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_container p{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
