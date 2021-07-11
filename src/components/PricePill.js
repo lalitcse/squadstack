@@ -1,6 +1,5 @@
 import React from 'react'
 import './PricePill.css'
-import PropTypes from 'prop-types'
 
 const PricePill = ({ price, active, pillClicked, index }) => {
     return (
@@ -8,11 +7,6 @@ const PricePill = ({ price, active, pillClicked, index }) => {
             {price}
         </div>
     )
-}
-
-PricePill.propTypes = {
-    price: PropTypes.string,
-    active: PropTypes.number
 }
 
 export default PricePill
